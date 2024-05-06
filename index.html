@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Djonah Cruden - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Djonah Cruden
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          djonahkcruden@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Djonah Cruden! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a junior full stack developer with 1 year of experience in full stack devleopment.
+            I have worked on personal projects and microservices. I completed multiple coding courses and bootcamps. 
+            I mainly work with HTML/CSS, Javascript and Python including their libraries and different frameworks.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://github.com/KaganMercan/SinglePageApplication/blob/main/html_finalprojimages/node.png?raw=true"/>
+            <h6>Node</h6>
+            <p>1 year experience</p>
+          </div>
+          
+          <div class="skill">
+            <img src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png"/>
+            <h6>CSS</h6>
+            <p>2 year experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://github.com/KaganMercan/SinglePageApplication/blob/main/html_finalprojimages/react.png?raw=true"/>
+            <h6>React</h6>
+            <p>1 year experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-5d0f0aa79779a6.6143656815612668556205.jpg"/>
+            <h6>Python</h6>
+            <p>1 year experience</p>
+          </div>
+
+
+
+          
+          
+          
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <ul>
+              <li>Developed a weather application using HTML, CSS, JavaScript</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Shopify clone
+            </h3>
+            <ul>
+              <li>Developed and deployed a Shopify E-commerce clone using HTML,CSS, Javascript and Python</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Bed & Breakfast website</h3>
+            <ul>
+              <li>Created a Bed & Breakfast website for a newly opened Bed & Breakfast located in Diemen</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Djonah's grasp of responsive design techniques significantly improved our site's usability across devices. Highly recommend his skills for any web development project. — Alex
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          For anyone needing expertise in JavaScript and frontend frameworks, Djonah is your go-to. His code is clean and his solutions are innovative. — Maria
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Djonah consistently delivers exceptional results in web projects. His attention to detail and commitment to user experience make him a valuable team member. — Samuel
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
